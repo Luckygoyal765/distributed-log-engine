@@ -1,0 +1,18 @@
+{
+  "name": "ingestion-gateway",
+  "version": "1.0.0",
+  "description": "High-throughput log ingestion API gateway publishing to Kafka",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

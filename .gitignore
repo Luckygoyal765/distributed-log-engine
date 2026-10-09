@@ -1,0 +1,28 @@
+.vscode/
+.idea/
+
+Build outpuDependencies
+
+node_modules/
+dashboard/node_modules/
+ingestion-gateway/node_modules/
+search-api/node_modules/
+pycache/
+*.pyc
+
+Data and Logs
+
+data/
+*.log
+.DS_Store
+
+Environment variables
+
+.env
+!.env.example
+
+IDEsts
+
+dashboard/dist/
+dashboard/dist-ssr/
+*.egg-info/
