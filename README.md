@@ -1,4 +1,5 @@
 
+
 Distributed Log Search & Indexing Engine
 
 A high-performance, event-driven log ingestion and full-text search engine built with Node.js, Python, Apache Kafka, Redis, and React.
